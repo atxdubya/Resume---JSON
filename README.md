@@ -12,4 +12,6 @@
 </ul>
 
 <h4>Site:</h4>
-http://resume-json.bitballoon.com/
+<ul>
+  <li>http://resume-json.bitballoon.com/</li>
+</ul>
