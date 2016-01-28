@@ -2,7 +2,23 @@
 GENERAL
 ********/
 
+body {
+	background-color: #404040;
+	color: white;
+	font-family: 'Raleway', sans-serif;
+	font-weight: lighter;
+	margin-top: 5%;
+	margin-bottom: 2.5%;
+}
 
+hr {
+	width: 60%;
+	border: 2px ridge #4cb1c2;
+}
+
+/*Colors
+#404040 - Grey for background
+#4cb1c2 - Light aqua for hr tags*/
 
 
 
@@ -10,23 +26,22 @@ GENERAL
 HEADER
 ********/
 
-h1, h2 {
+h1, h2, .information {
 	text-align: center;
 }
 
-.information {
-	text-align: center;
+h2 {
+	text-decoration: underline;
 }
+
 
 
 /********
 PAGE
 ********/
 
+p {
+	font-size: 1.15em;
+}
 
 
-
-
-/********
-FOOTER
-********/
