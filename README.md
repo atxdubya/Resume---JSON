@@ -8,5 +8,5 @@
 <h4>Styling:</h4>
 <ul>
   <li>Straight forward and not too flashy</li>
-  <li>Used animate.js and font-awesome to add that little extra</li>
+  <li>Used animate.css and font-awesome to add that little extra</li>
 </ul>
