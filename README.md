@@ -1,2 +1,5 @@
 # Resume_JSON
-My resume in JSON format
+
+OVERVIEW:
+Simply put, my resume is in JSON format and rendered using JSON.parse
+
