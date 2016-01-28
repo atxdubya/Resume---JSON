@@ -1,4 +1,32 @@
 
+//RELEVANT INFO
+//This is relevant for contact information
+var contact = '{"type_of_info":"Contact: ", "info":"atxdubya@gmail.com"}';
+var contact_info = JSON.parse(contact);
+
+document.getElementById("relevant_info_zero").innerHTML = contact_info.type_of_info + contact_info.info;
+
+//This is relevant for portfolio information
+var portfolio = '{"type_of_info":"Portfolio: ", "info":"http://www.bluematterhorn.com"}';
+var portfolio_info = JSON.parse(portfolio);
+
+document.getElementById("relevant_info_one").innerHTML = portfolio_info.type_of_info + portfolio_info.info;
+
+//This is relevant for github information
+var github = '{"type_of_info":"GitHub: ", "info":"https://github.com/atxdubya"}';
+var github_info = JSON.parse(github);
+
+document.getElementById("relevant_info_two").innerHTML = github_info.type_of_info + github_info.info;
+
+//This is relevant for linkedin information
+var linkedin = '{"type_of_info":"LinkedIn: ", "info":"https://www.linkedin.com/in/nicholaswallace1"}';
+var linkedin_info = JSON.parse(linkedin);
+
+document.getElementById("relevant_info_three").innerHTML = linkedin_info.type_of_info + linkedin_info.info;
+
+
+
+//WORK EXPERIENCE
 //This is job number 0
 var job0 = '{"company_name":"BulleyeFit", "location":"Austin, TX", "position":"Owner", "dates":"Nov. 2012 - Aug. 2015", "duty1":"-Ran daily business operations", "duty2":"-Relationship building through gyms, networking events, and health fairs", "duty3":"-Coached outdoor bootcamps and personal training clients", "duty4":"-Programmed workouts specific to client needs"}';
 var job_zero = JSON.parse(job0);
@@ -22,8 +50,53 @@ var job3 = '{"company_name":"Metal Sales Manufacturing Corp.", "location":"U.S."
 var job_three = JSON.parse(job3);
 
 document.getElementById("work_experience_three").innerHTML = job_three.company_name + " - " + job_three.location + "<br>" + job_three.position + "<br>" + job_three.dates + "<br>" + "<br>" + job_three.duty1 + "<br>" + job_three.duty2 + "<br>" + job_three.duty3;
-//Build an array that contains skills
 
-//Build an array that contains certifications
 
-//Build an array that contains objects (for each education experience) with key/value pairs
+
+//SKILLS
+//Array of relevant web development skills
+var skill_set = ["HTML; CSS; Bootstrap; JavaScript; jQuery; Meteor; AJAX; JSON; SQL; Ruby; Sinatra; Ruby on Rails; Node.js; Git/GitHub; Microsoft Office Suite; iWork Suite; Photoshop; Web design/styling; Wireframes"];
+
+document.getElementById("skills").innerHTML = skill_set
+
+
+
+//CERTIFICATIONS
+//Array of certifications
+var certs = ["CrossFit Level 1; Kettlebell Level 1; Strongman Level 1; Texas Real Estate License; TCFP Firefighter I & II"];
+
+document.getElementById("certifications").innerHTML = certs
+
+
+
+//EDUCATION
+//This is education number 0
+var school0 = '{"school_name":"General Assembly", "location":"Austin, TX", "area_of_study":"Web Development Immersive"}';
+var school_zero = JSON.parse(school0);
+
+document.getElementById("education_zero").innerHTML = school_zero.school_name + " - " + school_zero.location + "<br>" + school_zero.area_of_study;
+
+//This is education number 1
+var school1 = '{"school_name":"The University of Texas", "location":"Austin, TX", "area_of_study":"Health Information Technology and Health Information Exchange Course"}';
+var school_one = JSON.parse(school1);
+
+document.getElementById("education_one").innerHTML = school_one.school_name + " - " + school_one.location + "<br>" + school_one.area_of_study;
+
+//This is education number 2
+var school2 = '{"school_name":"The University of Texas", "location":"Austin, TX", "area_of_study":"B.S. in Kinesiology (Major - Sport Management; Minor - Business)"}';
+var school_two = JSON.parse(school2);
+
+document.getElementById("education_two").innerHTML = school_two.school_name + " - " + school_two.location + "<br>" + school_two.area_of_study;
+
+//This is education number 3
+var school3 = '{"school_name":"Texas Tech University", "location":"Lubbock, TX"}';
+var school_three = JSON.parse(school3);
+
+document.getElementById("education_three").innerHTML = school_three.school_name + " - " + school_three.location;
+
+
+
+
+
+
+
