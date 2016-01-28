@@ -1,7 +1,27 @@
-//Create a title (name) section
 
-//Build an array that contains objects (for each job) with key/value pairs
+//This is job number 0
+var job0 = '{"company_name":"BulleyeFit", "location":"Austin, TX", "position":"Owner", "dates":"Nov. 2012 - Aug. 2015", "duty1":"-Ran daily business operations", "duty2":"-Relationship building through gyms, networking events, and health fairs", "duty3":"-Coached outdoor bootcamps and personal training clients", "duty4":"-Programmed workouts specific to client needs"}';
+var job_zero = JSON.parse(job0);
 
+document.getElementById("work_experience_zero").innerHTML = job_zero.company_name + " - " + job_zero.location + "<br>" + job_zero.position + "<br>" + job_zero.dates + "<br>" + "<br>" + job_zero.duty1 + "<br>" + job_zero.duty2 + "<br>" + job_zero.duty3 + "<br>" + job_zero.duty4;
+
+//This is job number 1
+var job1 = '{"company_name":"CrossFit Central", "location":"Austin, TX", "position":"CrossFit & Bootcamp Coach", "dates":"Sept. 2012 - Mar. 2013", "duty1":"-Taught indoor and outdoor fitness classes of 5-20 clients", "duty2":"-Implemented efficiency improvements in computer systems workflow", "duty3":"-Formulated daily social media marketing"}';
+var job_one = JSON.parse(job1);
+
+document.getElementById("work_experience_one").innerHTML = job_one.company_name + " - " + job_one.location + "<br>" + job_one.position + "<br>" + job_one.dates + "<br>" + "<br>" + job_one.duty1 + "<br>" + job_one.duty2 + "<br>" + job_one.duty3;
+
+//This is job number 2
+var job2 = '{"company_name":"Texas Imaging Systems", "location":"Austin, TX", "position":"Outside Territory Sales Representative", "dates":"Dec. 2011 - May 2012", "duty1":"-Sold and leased large scale copiers and printers in an outside sales environment", "duty2":"-Closed deals that ranged from $2,000 - $15,000", "duty3":"-Provided account management to clients in assigned territory"}';
+var job_two = JSON.parse(job2);
+
+document.getElementById("work_experience_two").innerHTML = job_two.company_name + " - " + job_two.location + "<br>" + job_two.position + "<br>" + job_two.dates + "<br>" + "<br>" + job_two.duty1 + "<br>" + job_two.duty2 + "<br>" + job_two.duty3;
+
+//This is job number 3
+var job3 = '{"company_name":"Metal Sales Manufacturing Corp.", "location":"U.S.", "position":"Territory Sales Manager", "dates":"May 2011 - Oct. 2011", "duty1":"-Completed an intensive three month territory sales manager training program", "duty2":"-Traveled the U.S. educating customers on metal roofing and siding products", "duty3":"-Provided assistance to territory sales managers"}';
+var job_three = JSON.parse(job3);
+
+document.getElementById("work_experience_three").innerHTML = job_three.company_name + " - " + job_three.location + "<br>" + job_three.position + "<br>" + job_three.dates + "<br>" + "<br>" + job_three.duty1 + "<br>" + job_three.duty2 + "<br>" + job_three.duty3;
 //Build an array that contains skills
 
 //Build an array that contains certifications
