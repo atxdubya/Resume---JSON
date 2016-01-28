@@ -16,6 +16,10 @@ hr {
 	border: 2px ridge #4cb1c2;
 }
 
+a {
+	color: #4cb1c2;
+}
+
 /*Colors
 #404040 - Grey for background
 #4cb1c2 - Light aqua for hr tags*/
@@ -43,5 +47,25 @@ PAGE
 p {
 	font-size: 1.15em;
 }
+
+
+
+/********
+FOOTER
+********/
+
+.social_media {
+	text-align: center;
+	margin-top: 7%;
+}
+
+.fa {
+	margin-left: .25%;
+	margin-right: .25%;
+	font-size: 1.5em;
+}
+
+
+
 
 
